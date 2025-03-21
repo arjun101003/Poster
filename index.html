@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PosterHub - Premium Posters</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">
+                    <i class="fas fa-shopping-bag"></i>
+                    <span>PosterHub</span>
+                </a>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">Categories</a></li>
+                    <li><a href="#">New Arrivals</a></li>
+                    <li><a href="#">Bestsellers</a></li>
+                </ul>
+            </nav>
+            <div class="search-bar">
+                <input type="text" placeholder="Search posters...">
+                <button><i class="fas fa-search"></i></button>
+            </div>
+            <div class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Decorate Your Space with Premium Posters</h1>
+                <p>Discover our collection of high-quality posters for your home, office, or dorm room.</p>
+                <div class="hero-buttons">
+                    <a href="#featured" class="btn primary-btn">Shop Now</a>
+                    <a href="#categories" class="btn secondary-btn">Browse Categories</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Products -->
+    <section id="featured" class="featured-products">
+        <div class="container">
+            <div class="section-header">
+                <h2>Featured Posters</h2>
+                <p>Our most popular posters that customers love</p>
+            </div>
+            <div class="product-grid" id="featured-products">
+                <!-- Products will be loaded here via JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Categories -->
+    <section id="categories" class="categories">
+        <div class="container">
+            <div class="section-header">
+                <h2>Shop by Category</h2>
+                <p>Find the perfect poster for your style</p>
+            </div>
+            <div class="category-grid">
+                <a href="#" class="category-card">
+                    <div class="category-img">
+                        <img src="https://via.placeholder.com/300x300.png?text=Art" alt="Art">
+                    </div>
+                    <span>Art</span>
+                </a>
+                <a href="#" class="category-card">
+                    <div class="category-img">
+                        <img src="https://via.placeholder.com/300x300.png?text=Movies" alt="Movies">
+                    </div>
+                    <span>Movies</span>
+                </a>
+                <a href="#" class="category-card">
+                    <div class="category-img">
+                        <img src="https://via.placeholder.com/300x300.png?text=Music" alt="Music">
+                    </div>
+                    <span>Music</span>
+                </a>
+                <a href="#" class="category-card">
+                    <div class="category-img">
+                        <img src="https://via.placeholder.com/300x300.png?text=Nature" alt="Nature">
+                    </div>
+                    <span>Nature</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- New Arrivals -->
+    <section class="new-arrivals">
+        <div class="container">
+            <div class="section-header">
+                <h2>New Arrivals</h2>
+                <p>Check out our latest poster additions</p>
+            </div>
+            <div class="product-grid" id="new-arrivals">
+                <!-- Products will be loaded here via JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <div class="logo">
+                        <i class="fas fa-shopping-bag"></i>
+                        <span>PosterHub</span>
+                    </div>
+                    <p>Quality posters for every space and style.</p>
+                </div>
+                <div class="footer-column">
+                    <h3>Shop</h3>
+                    <ul>
+                        <li><a href="#">All Categories</a></li>
+                        <li><a href="#">New Arrivals</a></li>
+                        <li><a href="#">Bestsellers</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>About</h3>
+                    <ul>
+                        <li><a href="#">Our Story</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Contact</h3>
+                    <p>Email: charjun1010@gmail.com</p>
+                    <p>Phone: +91 93198 30264</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="current-year"></span> PosterHub. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
